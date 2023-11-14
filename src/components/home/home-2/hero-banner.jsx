@@ -8,40 +8,61 @@ const hero_slider = [
     id: 1,
     title: (
       <>
-        Our Passion is to <br /> Give you Better <br /> Service
+       See Clearly,  <br /> Live Brightly
       </>
     ),
     des: (
       <>
-        Your full service lab for clinical trials. Our mission is to ensure the{" "}
-        <br /> generation of accurate and precise findings
+        At Opale, we blend tradition with innovation for cutting-edge eye care. {" "}
+        <br /> See the world in a new light with our advanced treatments.
       </>
     ),
     appointment: "Appointment",
     about: "About us",
-    img_1: "/assets/img/slider/slider-bg-1.png",
+    img_1: "/assets/img/slider/slider-bg-3.jpg",
     img_2: "/assets/img/slider/slider-bg-2.png",
   },
   {
     id: 2,
     title: (
       <>
-        Our Passion is to <br /> Give you Better <br /> Service
+        Your Eyes,  <br />Our Expertise
       </>
     ),
     des: (
       <>
-        Your full service lab for clinical trials. Our mission is to ensure the{" "}
-        <br /> generation of accurate and precise findings
+       Your eyes deserve the best. Opale Eye Care is committed to your visual health. {" "}
+        <br /> Schedule your appointment today and invest in your eyes.
       </>
     ),
     appointment: "Appointment",
     about: "About us",
-    img_1: "/assets/img/slider/slider-bg-3.png",
-    img_2: "/assets/img/slider/slider-bg-2.png",
+    img_1: "/assets/img/slider/slider-bg-1.png",
+    img_2: "/assets/img/slider/slider-bg-2_1.png",
   },
 ];
-
+const hero_box = [
+  {
+    id: 1,
+    icon: "flaticon-slit-lamp",
+    des: "Comprehensive Eye Examinations",
+    color: "",
+  },
+  {
+    id: 2,
+    icon: "flaticon-eye-drops",
+    des: "State-of-the-Art Equipment",
+    color: "pink-icon",
+    border: "pink-border",
+  },
+  {
+    id: 3,
+    icon: "flaticon-optometrist-8",
+    des: "Emergency Eye Care Services",
+    color: "green-icon",
+    border: "green-border",
+  },
+];
 // slider setting
 const setting = {
   // Optional parameters
@@ -58,29 +79,7 @@ const setting = {
 };
 
 // social_links
-const social_links = [
-  {
-    name: "facebook",
-    link: "http://facebook.com",
-    target: "_blank",
-    icon: "fab fa-facebook-f",
-    color: "facebook-2",
-  },
-  {
-    name: "youtube",
-    link: "https://www.youtube.com/",
-    target: "_blank",
-    icon: "fab fa-youtube",
-    color: "youtub-2",
-  },
-  {
-    name: "twitter",
-    link: "http://twitter.com",
-    target: "_blank",
-    icon: "fab fa-twitter",
-    color: "twitter-2",
-  },
-];
+
 const HeroBanner = () => {
   const [isLoop, setIsLoop] = useState(false);
   useEffect(() => {
@@ -88,25 +87,32 @@ const HeroBanner = () => {
   }, []);
   return (
     <>
-      <section className="slider-area slider-tp-top pt-100 p-relative">
+      <section className="slider-area slider-tp-top pt-30 p-relative">
         <div className="slider-social">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6 col-md-10 d-none d-md-block">
-                <div className="slider-content__social">
-                  {social_links.map((link, i) => (
-                    <Link
-                      key={i}
-                      target={link.target}
-                      className={link.color}
-                      href={link.link}
-                    >
-                      <i className={link.icon}></i> {link.name}
-                    </Link>
+              <div className="col-lg-8 col-md-10 d-none d-md-block">
+              <div className="banner__box-item">
+                <div className="row">
+                  {hero_box.map((item) => (
+                    <div key={item.id} className="col-xl-4 col-lg-4 col-md-6">
+                      <div
+                        className={`banner__item d-flex ${item.border} align-items-center mb-30 wow fadeInUp`}
+                        data-wow-delay=".2s"
+                      >
+                        <div className={`banner__item-icon ${item.color}`}>
+                          <i className={item.icon}></i>
+                        </div>
+                        <div className="banner__item-content">
+                          <span>{item.des}</span>
+                        </div>
+                      </div>
+                    </div>
                   ))}
                 </div>
               </div>
-              <div className="col-lg-6 col-md-2 col-12 d-none d-md-block">
+              </div>
+              <div className="col-lg-4 col-md-2 col-12 d-none d-md-block">
                 <div className="slider-content__arrow d-flex align-items-center">
                   <div className="slider-p">
                     <i className="fa-regular fa-arrow-left"></i>
@@ -130,7 +136,7 @@ const HeroBanner = () => {
               <div className="swiper-slide bg-white">
                 <div className="container">
                   <div className="row align-items-center">
-                    <div className="col-lg-6 col-md-12 col-12 order-2 order-lg-1">
+                    <div className="col-lg-7 col-md-12 col-12 order-2 order-lg-1">
                       <div className="slider-content pt-60">
                         <h2 className="slider-content__title mb-45">
                           {item.title}
@@ -146,7 +152,7 @@ const HeroBanner = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-12 order-1 order-lg-2">
+                    <div className="col-lg-5 col-md-6 col-12 order-1 order-lg-2">
                       <div className="slider-content__bg">
                         <img src={item.img_1} alt="slider-img" />
                       </div>

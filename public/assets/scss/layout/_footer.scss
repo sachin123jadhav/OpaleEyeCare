@@ -182,7 +182,8 @@
 .tp-f-youtube,
 .tp-f-twitter,
 .tp-f-fb,
-.tp-f-skype {
+.tp-f-pinterest,
+.tp-f-instagram {
   margin-right: 12px;
   & i {
     display: inline-block;
@@ -217,12 +218,21 @@
     }
   }
 }
-.tp-f-skype {
+.tp-f-pinterest {
   &:hover {
-    &.tp-f-skype i {
+    &.tp-f-pinterest i {
       color: var(--tp-common-white);
-      border: 1px solid var(--tp-icon-skype);
-      background-color: var(--tp-icon-skype);
+      border: 1px solid #b7081b;
+      background-color:#b7081b;
+    }
+  }
+}
+.tp-f-instagram {
+  &:hover {
+    &.tp-f-instagram i {
+      color: var(--tp-common-white);
+      border: 1px solid #d62976;
+      background-color:#d62976;
     }
   }
 }

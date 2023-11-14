@@ -5,7 +5,7 @@ import React from "react";
 const TeamArea = () => {
   return (
     <>
-      <section className="team-area pt-125 pb-70">
+      <section className="team-area pt-125 pb-70" >
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

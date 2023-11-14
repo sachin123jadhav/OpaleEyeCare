@@ -33,13 +33,13 @@
           color: var(--tp-text-body);
         }
         @media #{$xxl} {
-          font-size: 12px;
+          font-size: 14px;
         }
         @media #{$xxl,$xl} {
           margin: 0 20px;
         }
         @media #{$xl} {
-          font-size: 12px;
+          font-size: 14px;
         }
       }
       &.has-dropdown {
@@ -878,6 +878,7 @@
   & .tp-bt-btn {
     box-shadow: rgba(100, 100, 111, 0.1) 1px 5px 20px 1px;
   }
+  .header-menu-top{display: none;}
 }
 .tp-home-one {
   &.header-sticky {

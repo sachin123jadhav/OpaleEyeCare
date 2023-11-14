@@ -4,6 +4,7 @@ import HeaderTwo from "@/layout/header/header-two";
 import React from "react";
 import BannerTeamOne from "./banner-team-one";
 import TeamArea from "./team-area";
+import Footer from "@/layout/footer/footer";
 
 const TeamOne = () => {
   return (
@@ -11,8 +12,8 @@ const TeamOne = () => {
       <HeaderTwo />
       <BannerTeamOne />
       <TeamArea />
-      <DirectContactUs />
-      <FooterFour />
+    
+      <Footer></Footer>
     </>
   );
 };

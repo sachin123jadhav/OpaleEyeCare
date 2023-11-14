@@ -1,13 +1,13 @@
 @font-face {
   font-family: "flaticon";
-  src: url("../fonts/flaticon.woff2") format("woff2"),
-    url("../fonts/flaticon.woff") format("woff"),
-    url("../fonts/flaticon.ttf") format("ttf"),
-    url("../fonts/flaticon.eot") format("embedded-opentype");
+  src: url("../fonts/flaticonad36.ttf") format("truetype"),
+url("../fonts/flaticonad36.woff?e7550540016d88f5fcd67e0f2b0cf0e4") format("woff"),
+url("../fonts/flaticonad36.woff2?e7550540016d88f5fcd67e0f2b0cf0e4") format("woff2"),
+url("../fonts/flaticonad36.eot?e7550540016d88f5fcd67e0f2b0cf0e4#iefix") format("embedded-opentype"),
+url("../fonts/flaticonad36.svg?e7550540016d88f5fcd67e0f2b0cf0e4#flaticon") format("svg");
 }
 
-i[class^="flaticon-"]:before,
-i[class*=" flaticon-"]:before {
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
   font-family: flaticon !important;
   font-style: normal;
   font-weight: normal !important;
@@ -18,87 +18,66 @@ i[class*=" flaticon-"]:before {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.flaticon-shopping-cart:before {
+.flaticon-optometrist:before {
   content: "\f101";
 }
-.flaticon-list:before {
+.flaticon-optometrist-1:before {
   content: "\f102";
 }
-.flaticon-triangle:before {
+.flaticon-optometrist-2:before {
   content: "\f103";
 }
-.flaticon-hemoglobin-test-meter:before {
+.flaticon-testing-glasses:before {
   content: "\f104";
 }
-.flaticon-blood-test:before {
+.flaticon-optometrist-3:before {
   content: "\f105";
 }
-.flaticon-biochemistry:before {
+.flaticon-optometrist-4:before {
   content: "\f106";
 }
-.flaticon-bacteria:before {
+.flaticon-slit-lamp:before {
   content: "\f107";
 }
-.flaticon-heart:before {
+.flaticon-eye:before {
   content: "\f108";
 }
-.flaticon-dna:before {
+.flaticon-optometrist-5:before {
   content: "\f109";
 }
-.flaticon-dna-1:before {
+.flaticon-eye-test:before {
   content: "\f10a";
 }
-.flaticon-ct-scan:before {
+.flaticon-testing-glasses-1:before {
   content: "\f10b";
 }
-.flaticon-experiment:before {
+.flaticon-eye-1:before {
   content: "\f10c";
 }
-.flaticon-premium-badge:before {
+.flaticon-eye-drops:before {
   content: "\f10d";
 }
-.flaticon-rating:before {
+.flaticon-optometrist-6:before {
   content: "\f10e";
 }
-.flaticon-target:before {
+.flaticon-optometrist-7:before {
   content: "\f10f";
 }
-.flaticon-approval:before {
+.flaticon-optometrist-8:before {
   content: "\f110";
 }
-.flaticon-chemistry:before {
+.flaticon-optician:before {
   content: "\f111";
 }
-.flaticon-report:before {
+.flaticon-hyperopia:before {
   content: "\f112";
 }
-.flaticon-flask:before {
+.flaticon-eye-2:before {
   content: "\f113";
 }
-.flaticon-placeholder:before {
+.flaticon-view:before {
   content: "\f114";
 }
-.flaticon-mail:before {
+.flaticon-shared-vision:before {
   content: "\f115";
-}
-.flaticon-24-hours:before {
-  content: "\f116";
-}
-.flaticon-microscope:before {
-  content: "\f117";
-}
-.flaticon-thinking:before {
-  content: "\f118";
-}
-.flaticon-24-hours-1:before {
-  content: "\f119";
-}
-.flaticon-team:before {
-  content: "\f11a";
-}
-.flaticon-comment:before {
-  content: "\f11b";
-}
-.flaticon-user:before {
-  content: "\f11c";
 }

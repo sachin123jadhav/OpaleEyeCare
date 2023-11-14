@@ -29,15 +29,7 @@ const ContactUs = () => {
                 />
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="contactform__input mb-30">
-                <input
-                  name="website"
-                  type="text"
-                  placeholder="Enter your website"
-                />
-              </div>
-            </div>
+           
             <div className="col-lg-12">
               <div className="contactform__input mb-30">
                 <textarea

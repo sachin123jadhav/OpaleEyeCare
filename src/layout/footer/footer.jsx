@@ -11,10 +11,7 @@ const footer_content = {
       links: [
         { name: "Contact us", link: "/contact-us" },
         { name: "Help & About us", link: "/about" },
-        { name: "Shipping & Returns", link: "/shop-details" },
-        { name: "Refund Policy", link: "/shop-details" },
-        { name: "About us", link: "/about" },
-        { name: "Services", link: "/service" },
+        
       ],
     },
     {
@@ -22,11 +19,10 @@ const footer_content = {
       title: "Contact info",
       cls: "footer-col-3",
       links: [
-        { name: "Ta-134/A, Gulshan Badda Link" },
-        { name: "(+880)155 69569 365" },
-        { name: "support@rstheme.com" },
-        { name: "Office Hours: 8AM - 11PM" },
-        { name: "Sunday - Wekend Day" },
+        { name: "Opal eye care, 1 st floor, building T1, Flower valley, Opposite Viviana mall, Thane west-400601" },
+        { name: "+91 9137359205" },
+        { name: "drkiranmore@yahoo.com" },
+        
       ],
     },
   ],
@@ -35,9 +31,9 @@ const footer_content = {
       id: 1,
       title: "Quick Links",
       support_info: [
-        " 27 Division St, New York, NY 10002, USA",
-        "(+880)52462545632",
-        " support@example.com",
+        " Opal eye care, 1 st floor, building T1, Flower valley, Opposite Viviana mall, Thane west-400601",
+        "+91 9137359205",
+        "drkiranmore@yahoo.com",
       ],
       office_time: "Office Hours: 9AM - 4PM",
       off_day: " Friday - Wekend Day",
@@ -46,7 +42,7 @@ const footer_content = {
   copy_right_text: (
     <>
       © Copyright © {new Date().getFullYear()}
-      <Link href="/"> Theme_pure</Link>.<i> All Rights Reserved Copyright</i>
+      <Link href="/"> Opal Eye Care & Glaucoma Center</Link>.<i> All Rights Reserved.</i>
     </>
   ),
 };
@@ -56,27 +52,23 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="footer-area theme-bg pt-100 pb-50">
+        <div className="footer-area theme-bg pt-30 pb-0">
           <div className="container">
             <div className="row">
               <div className="col-xl-3 col-lg-4 col-md-6">
                 <div
-                  className="footer-widget footer-col-1 mb-50 wow fadeInUp"
+                  className="footer-widget footer-col-1 mb-30 wow fadeInUp"
                   data-wow-delay=".2s"
                 >
                   <h4 className="footer-widget__title mb-30">
                     <a href="index">
-                      <img src="/assets/img/logo/white-logo.png" alt="logo" />
+                      <img src="/assets/img/logo/OplaeLogo.png" alt="logo" />
                     </a>
                   </h4>
                   <p>
-                    Exerci tation ullamcorper suscipit lobortis nisl aliquip ex
-                    ea commodo claritatem itamconse quat.Exerci tation
-                    ullamcorper.
+                  After staying in four different continents we moved back to India permanently to offer my services to our Indian community. Opal eye care and glaucoma center is my first venture and a dream come true.
                   </p>
-                  <div className="footer-widget__social">
-                    <SocialLinks />
-                  </div>
+                  
                 </div>
               </div>
               {
@@ -161,20 +153,16 @@ const Footer = () => {
                   data-wow-delay=".8s"
                 >
                   <h4 className="footer-widget__title mb-20">
-                    Subscribe Newslatter
+                  Opening Hours
                   </h4>
-                  <p>
-                    Exerci tation ullamcorper suscipit lobortis nisl aliquip ex
-                    ea commodo{" "}
-                  </p>
-                  <div className="footer-widget__newsletter p-relative">
-                    <form action="#">
-                      <input type="email" placeholder="Enter Mail" />
-                      <button className="footer-widget__fw-news-btn">
-                        <i className="fa-solid fa-paper-plane"></i>
-                      </button>
-                    </form>
+                <p> Weekdays - Mon-Sat: 8am-6pm<br></br>
+
+Weekend - Sun: Closed</p> 
+
+<div className="footer-widget__social">
+                    <SocialLinks />
                   </div>
+                  
                 </div>
               </div>
             </div>
@@ -183,26 +171,12 @@ const Footer = () => {
         <div className="footer-area-bottom theme-bg">
           <div className="container">
             <div className="row">
-              <div className="col-xl-6 col-lg-6 col-md-12 col-12">
-                <div className="footer-widget__copyright">
-                  <span>{copy_right_text}</span>
+              <div className="col-xl-12 col-lg-12 col-md-12 col-12">
+                <div className="footer-widget__copyright text-center">
+                  <span cl>{copy_right_text}</span>
                 </div>
               </div>
-              <div className="col-xl-6 col-lg-6 col-md-12 col-12">
-                <div className="footer-widget__copyright-info info-direction">
-                  <ul className="d-flex align-items-center">
-                    <li>
-                      <a href="#">Terms and conditions</a>
-                    </li>
-                    <li>
-                      <a href="#">Privacy policy</a>
-                    </li>
-                    <li>
-                      <a href="shop">Pricing</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+             
             </div>
           </div>
         </div>

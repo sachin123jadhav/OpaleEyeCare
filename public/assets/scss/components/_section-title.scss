@@ -8,12 +8,12 @@
         display: inline-block;
     }
     &__title {
-        font-size: 43px;
+        font-size: 34px;
 		@media #{$xl} {
-			font-size: 40px;
+			font-size: 30px;
 		}
 		@media #{$xs} {
-			font-size: 32px;
+			font-size: 25px;
 		}
     }
 	& i {
@@ -23,6 +23,7 @@
 		margin-bottom: 35px;
 		display: block;
 	}
+	
 	&__link {
 		font-size: 18px;
 		font-weight: 500;
@@ -61,6 +62,13 @@
 		}
 	}
 }
+.about-content{
+	.tp-section i{ display: inline-block; margin-right: 10px;margin-bottom: 10px;
+
+	}
+
+}
+
 .sub-title-white {
 	color: var(--tp-common-white);
 }

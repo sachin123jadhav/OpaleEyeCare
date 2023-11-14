@@ -6,26 +6,26 @@ const counter_text = [
   {
     id: 1,
     color: "blue-hard",
-    counter: 1492,
-    text: "Laboratories in 100+ states",
+    counter: 12,
+    text: "Years Experience in Cataract, Glaucoma, Refraction",
   },
   {
     id: 2,
     color: "pink-hard",
-    counter: 152,
-    text: "Laboratory specialists",
+    counter: 4,
+    text: "Different Continents Serving the people",
   },
   {
     id: 3,
     color: "sky-hard",
-    counter: 1022,
-    text: "Material collection points",
+    counter: 100,
+    text: "Free Diagnostic Camps (cataract, glaucoma, refraction and diabetic eye ckeck)",
   },
   {
     id: 4,
     color: "green-hard",
-    counter: 24332,
-    text: "Patients diagnosed in 2022",
+    counter: 2017,
+    text: "fellowship in Diagnosis and management of Glaucoma",
   },
 ];
 

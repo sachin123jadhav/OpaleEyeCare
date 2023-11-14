@@ -5,6 +5,7 @@
 /*----------------------------------------*/
 
 .tp-team {
+  
   &:hover {
     & .tp-team__thumb {
       & a {
@@ -432,3 +433,5 @@
     }
   }
 }
+
+.team-area{background-image: url(../../img/bg.png); background-size: cover;}

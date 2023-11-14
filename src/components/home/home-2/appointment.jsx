@@ -4,7 +4,7 @@ const Appointment = () => {
   return (
     <>
       <section
-        className="appoinment-area grey-bg mb-50 tp-box-space ml-30 mr-30"
+        className="appoinment-area grey-bg mb-150 tp-box-space ml-30 mr-30"
         style={{ backgroundImage: `url("/assets/img/shape/shape-bg-08.png")` }}
       >
         <div className="container">
@@ -12,7 +12,7 @@ const Appointment = () => {
             <div className="col-xl-4 col-lg-12 col-md-12">
               <div className="appoint-thumb">
                 <img
-                  src="/assets/img/banner/appoinment-02.png"
+                  src="/assets/img/banner/appoinment-02.jpg"
                   alt="appoinment-img"
                 />
               </div>
@@ -62,8 +62,10 @@ const Appointment = () => {
                         <div className="visit-serial mt-45">
                           <span>
                             24/7 Emergency Service :
-                            <a href="tel:+88978897">
-                              +88 978 897 6545
+                            <a href="tel:+919137359205
+">
+                            +91 9137359205
+
                               <i className="fa-regular fa-arrow-right"></i>
                             </a>
                           </span>

@@ -1,27 +1,27 @@
 const social_links = [
   {
-    link: "https://www.youtube.com/",
+    link: "https://www.instagram.com/opaleyecare/",
     target: "_blank",
-    icon: "fab fa-youtube",
-    color: "tp-f-youtube",
+    icon: "fab fa-instagram",
+    color: "tp-f-instagram",
   },
   {
-    link: "http://twitter.com",
+    link: "https://twitter.com/OpalEyeCare",
     target: "_blank",
     icon: "fab fa-twitter",
     color: "tp-f-twitter",
   },
   {
-    link: "http://facebook.com",
+    link: "https://www.facebook.com/opaleyecare",
     target: "_blank",
     icon: "fab fa-facebook-f",
     color: "tp-f-fb",
   },
   {
-    link: "https://www.skype.com/en/",
+    link: "https://in.pinterest.com/opal_e/",
     target: "_blank",
-    icon: "fab fa-skype",
-    color: "tp-f-skype",
+    icon: "fab fa-pinterest",
+    color: "tp-f-pinterest",
   },
 ];
 

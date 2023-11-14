@@ -7,10 +7,10 @@ import ContactForm from "./contact-form";
 const ContactUs = () => {
   return (
     <>
-      <HeaderTwo />
+     
       <Banner />
       <ContactForm />
-      <FooterFour />
+      
     </>
   );
 };
