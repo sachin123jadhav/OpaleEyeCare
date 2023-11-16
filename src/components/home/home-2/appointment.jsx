@@ -37,14 +37,10 @@ const Appointment = () => {
                       </div>
                       <div className="col-lg-6">
                         <div className="visitor-form__input">
-                          <input type="text" placeholder="Medical Research" />
+                          <input type="tel" placeholder="Contact No." />
                         </div>
                       </div>
-                      <div className="col-lg-6">
-                        <div className="visitor-form__input">
-                          <input type="date" />
-                        </div>
-                      </div>
+                     
                       <div className="col-lg-12">
                         <div className="visitor-form__input">
                           <textarea

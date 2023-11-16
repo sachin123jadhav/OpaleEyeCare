@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -16,6 +17,7 @@
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
     "next": "13.1.6",
+    "nodemailer": "^6.9.7",
     "react": "18.2.0",
     "react-18-image-lightbox": "^5.1.4",
     "react-circular-progressbar": "^2.1.0",

@@ -21,7 +21,7 @@ const HomeTwo = () => {
       <About />
      <Counter cls="pt-0 pb-20" />
       <Appointment/>
-      <Testimonial bg_img={true} />
+      {/* <Testimonial bg_img={true} /> */}
       
     </>
   );
